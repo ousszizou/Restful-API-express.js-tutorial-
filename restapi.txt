@@ -1,0 +1,30 @@
+
+// API ( Application Programming Interface )
+
+// web services APIs ( REST ) representational state transfer
+
+// CRUD ( create - read - update - delete )
+
+// HTTP Methods :
+
+GET /movies         => get list of movies           (READ)
+GET /movies/:id     => find a movie by its ID       (READ)
+POST /movies        => create a new movie           (CREATE)
+PUT /movies/:id         => update an existing movie     (UPDATE)
+DELETE /movies /:id     => delete an existing movie     (DELETE)
+
+
+CLIENT  == ( request to server ) ==>  SERVER
+
+# request : https://api.mywebsite.com/v1/getUsersProfile?userID=1
+
+    - REST API endpoint => [ https://api.mywebsite.com/v1 ]
+    - API method => [ getUsersProfile ]
+    - Params => [ userID=1 ]
+
+CLIENT <== ( response from server ) == SERVER
+
+# response : JSON / XML / SOAP ...
+
+
+// example : https://reqres.in/api/users
